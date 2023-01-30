@@ -72,7 +72,7 @@ poster={'https://i.imgur.com/qsZ8VbK.jpeg'}
 id='playervideo'
 />
 <div class="button-container">
-<button onClick={handleFullscreen} title='Clique para tela cheia.' class="button fullscreen">🖵Full</button>
+<button onClick={handleFullscreen} title='Clique para tela cheia.' class="button fullscreen">Full</button>
 <button onClick={handleMuted} title='Clique para mutar ou desmutar o áudio.' class="button mute">{mute ? "🔇" : "🔈"}</button>
 </div>
 </>
