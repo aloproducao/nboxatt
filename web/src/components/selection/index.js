@@ -27,7 +27,7 @@ function Selection(props) {
         <div id='signal' class="font-bold m-4 bg-green-500 p-4 rounded-md shadow">
         <span id='alert'>⚠️</span>
 
- Para enviar sinal de video baixe o nosso encoder na área de download: <a href=''target={'_blank'} id='guide'> Clique aqui para o guia completo.</a>
+ Para enviar sinal de video baixe o nosso encoder na área de download: <a href='https://docs.google.com/presentation/d/1K4l7LKRLChup_i9HMspuVJA3D03MzFFs/edit?usp=sharing&ouid=115551664674650711033&rtpof=true&sd=true'target={'_blank'} id='guide'> Clique aqui para o guia completo.</a>
 </div>
         <div className='my-4'>
           
