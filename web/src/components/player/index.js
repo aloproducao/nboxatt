@@ -67,6 +67,8 @@ autoPlay
 muted={mute}
 controls
 playsInline
+preload="auto"
+buffered={2}
 className='mx-auto h-full'
 poster={'https://i.imgur.com/qsZ8VbK.jpeg'}
 id='playervideo'
