@@ -10,11 +10,11 @@ body {
   background-image: linear-gradient(
   -45deg,
   #121212 0%,
-  #282828 25%,
+  #141414 25%,
   #282828 51%,
   #121212 100%
   );
-  animation: AnimateBG 20s ease infinite;
+  animation: AnimateBG 30s ease infinite;
   }
   @keyframes AnimateBG {
   0%{background-position:0% 50%}

@@ -23,7 +23,7 @@ function Selection(props) {
         
       <form className='rounded-md bg-gray-800 shadow-md p-8'>
        <h2 className="font-light text-4xl mt-0 mb-4">Bem-vindo ao N.Box</h2>
-       
+        
         <p className="mb-4">N.box permite transmissão eficiente de vídeos em tempo real usando tecnologia WebRTC e codecs atuais.</p>
   
         <div className="mb-4 font-bold bg-green-500 p-4 rounded-md shadow text-sm">
