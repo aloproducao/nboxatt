@@ -32,10 +32,10 @@ const Header = () => {
     Downloads
   </button>
   <div class='dropdown-content'>
-    <a href='https://github.com/obsproject/obs-studio/suites/10491134874/artifacts/520263536' class='dropdown-item font-bold text-1xl py-2 px-4 bg-white text-black rounded-lg shadow-md hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75'>Winx64</a>
-    <a href='https://github.com/obsproject/obs-studio/suites/10491134874/artifacts/520263537' class='dropdown-item font-bold text-1xl py-2 px-4 bg-white text-black rounded-lg shadow-md hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75'>Winx86</a>
-    <a href='https://github.com/obsproject/obs-studio/suites/10491134874/artifacts/520263531' class='dropdown-item font-bold text-1xl py-2 px-4 bg-white text-black rounded-lg shadow-md hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75'>MacX64_86</a>
-    <a href='https://github.com/obsproject/obs-studio/suites/10491134874/artifacts/520263532' class='dropdown-item font-bold text-1xl py-2 px-4 bg-white text-black rounded-lg shadow-md hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75'>Ubuntu</a>
+    <a href='https://drive.google.com/file/d/1HjICvK0YIo_jjSqJhSvNWMh9v6z4Ex1v/view?usp=share_link' class='dropdown-item font-bold text-1xl py-2 px-4 bg-white text-black rounded-lg shadow-md hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75'>Winx64</a>
+    <a href='https://drive.google.com/file/d/1tBoT0RX2rTQn-XqyIv8cHNTvIGs50qyl/view?usp=share_link' class='dropdown-item font-bold text-1xl py-2 px-4 bg-white text-black rounded-lg shadow-md hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75'>Winx86</a>
+    <a href='https://drive.google.com/file/d/1sr580LLM26teS41ppxmSpQZjo52gUY9z/view?usp=share_link' class='dropdown-item font-bold text-1xl py-2 px-4 bg-white text-black rounded-lg shadow-md hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75'>MacX64_86</a>
+    <a href='https://drive.google.com/file/d/10YqPW3ZOg2EF5MlC-nnBKpjRihGyAeJ1/view?usp=share_link' class='dropdown-item font-bold text-1xl py-2 px-4 bg-white text-black rounded-lg shadow-md hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75'>Ubuntu</a>
     </div>
 </div>
 </div>
