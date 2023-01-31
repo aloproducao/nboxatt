@@ -19,3 +19,5 @@ cd nboxatt
 docker build -t nboxatt .
 
 docker run -d --net=host -e INCLUDE_PUBLIC_IP_IN_NAT_1_TO_1_IP=yes nboxatt
+
+htop
