@@ -14,6 +14,9 @@ const handleClick = () => {
   }
 };
 
+  document.addEventListener("DOMContentLoaded", function(event) {
+    document.title = "N.box - " + window.location.pathname.substring(1);
+  });
 
 return (
 <div>
