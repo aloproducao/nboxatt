@@ -21,15 +21,24 @@ const handleClick = () => {
 return (
 <div>
 <nav className='bg-gray-800 p-2 mt-0 fixed w-full z-10 top-0'>
-<div className='container mx-auto flex flex-wrap items-center'>
-<div className='flex flex-1 text-white font-extrabold'>
-<a href="/" className='font-light leading-tight text-2xl'>
-Navve.Box
-</a>
-</div>
-<div id='subtitulohead' id='sub1' className=' flex font-light text-green-500'>
-Streaming em milisegundos
-</div>
+<div className='container mx-auto flex flex-wrap justify-between items-center'>
+  <div className='flex flex-1 text-white font-extrabold'>
+    <a href="/" id='nbox' className='font-light leading-tight text-2xl'>
+      Navve.Box
+    </a>
+  </div>
+  <div  id='sub1' className=' flex font-light text-green-500'>
+    <a
+      href={window.location.href}
+      className='text-green-500 font-light hover:underline'
+      onClick={(e) => e.stopPropagation()}
+    >
+      {window.location.href}
+    </a>
+  </div>
+
+
+
 <div className='flex content-center justify-between md:w-1/2 md:justify-end'>
 <ul className='list-reset flex justify-between flex-1 md:flex-none items-center'>
 <li className=''>

@@ -15,6 +15,7 @@ function Selection(props) {
   }
   const onCopyClick = () => {
     copy("https://box.navve.studio/api/whip")
+    alert("Servidor copiado! Cole no seu OBS Studio e crie uma streamkey.")
   }
 
   return (

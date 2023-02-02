@@ -57,22 +57,8 @@ body {
       box-shadow: 0px 0px 10px #ffffff4c;
       }
       }
-  
-  #subtitulohead {
-  animation: shine 5s ease-in-out infinite;
-  }
-  
-  @keyframes shine {
-  0% {
-  text-shadow: 0 0 2px #ffffff;
-  }
-  50% {
-  text-shadow: 0 0 10px #ffffff;
-  }
-  100% {
-  text-shadow: 0 0 2px #ffffff;
-  }
-  }
+
+      
 
 #alert{
  font-size: 1.2rem;
