@@ -167,6 +167,9 @@ code {
   #sub1{
     font-size: small
   }
+  .bg-green-700 {
+    background-color: rgba(0, 128, 0, 0.211) !important;
+  }
   
   
 

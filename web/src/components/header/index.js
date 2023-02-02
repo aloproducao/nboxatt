@@ -20,7 +20,7 @@ const handleClick = () => {
 
 return (
 <div>
-<nav className='bg-gray-800 p-2 mt-0 fixed w-full z-10 top-0'>
+<nav className='bg-green-800 p-2 mt-0 fixed w-full z-10 top-0'>
 <div className='container mx-auto flex flex-wrap justify-between items-center'>
   <div className='flex flex-1 text-white font-extrabold'>
     <a href="/" id='nbox' className='font-light leading-tight text-2xl'>
@@ -56,10 +56,10 @@ return (
     Downloads
   </button>
   <div class='dropdown-content'>
-    <a href='https://drive.google.com/file/d/1HjICvK0YIo_jjSqJhSvNWMh9v6z4Ex1v/view?usp=share_link' class='dropdown-item font-bold text-1xl py-2 px-4 bg-white text-black rounded-lg shadow-md hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75'>Winx64</a>
-    <a href='https://drive.google.com/file/d/1tBoT0RX2rTQn-XqyIv8cHNTvIGs50qyl/view?usp=share_link' class='dropdown-item font-bold text-1xl py-2 px-4 bg-white text-black rounded-lg shadow-md hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75'>Winx86</a>
-    <a href='https://drive.google.com/file/d/1sr580LLM26teS41ppxmSpQZjo52gUY9z/view?usp=share_link' class='dropdown-item font-bold text-1xl py-2 px-4 bg-white text-black rounded-lg shadow-md hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75'>MacX64_86</a>
-    <a href='https://drive.google.com/file/d/10YqPW3ZOg2EF5MlC-nnBKpjRihGyAeJ1/view?usp=share_link' class='dropdown-item font-bold text-1xl py-2 px-4 bg-white text-black rounded-lg shadow-md hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75'>Ubuntu</a>
+    <a href='https://drive.google.com/file/d/1HjICvK0YIo_jjSqJhSvNWMh9v6z4Ex1v/view?usp=share_link' class='dropdown-item font-bold text-1xl py-2 px-4 bg-white text-black rounded-lg shadow-md hover:bg-green-300 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75'>Winx64</a>
+    <a href='https://drive.google.com/file/d/1tBoT0RX2rTQn-XqyIv8cHNTvIGs50qyl/view?usp=share_link' class='dropdown-item font-bold text-1xl py-2 px-4 bg-white text-black rounded-lg shadow-md hover:bg-green-300 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75'>Winx86</a>
+    <a href='https://drive.google.com/file/d/1sr580LLM26teS41ppxmSpQZjo52gUY9z/view?usp=share_link' class='dropdown-item font-bold text-1xl py-2 px-4 bg-white text-black rounded-lg shadow-md hover:bg-green-300 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75'>MacX64_86</a>
+    <a href='https://drive.google.com/file/d/10YqPW3ZOg2EF5MlC-nnBKpjRihGyAeJ1/view?usp=share_link' class='dropdown-item font-bold text-1xl py-2 px-4 bg-white text-black rounded-lg shadow-md hover:bg-green-300 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75'>Ubuntu</a>
     
     </div>
 </div>
