@@ -46,7 +46,7 @@ function Selection() {
         <li>1. Baixe o encoder na área de download.</li>
         <li>2. Cole o servidor copiado no OBS Studio e crie uma stream key.</li>
         <li>3. Insira a stream key na caixa de texto abaixo e clique em "Assistir Stream".</li>
-        <li><a href='https://docs.google.com/presentation/d/1K4l7LKRLChup_i9HMspuVJA3D03MzFFs/edit?usp=sharing&ouid=115551664674650711033&rtpof=true&sd=true'target={'_blank'} id='guide'>4.  Clique aqui para o guia completo.</a></li>
+        <li><a href='https://docs.google.com/presentation/d/1K4l7LKRLChup_i9HMspuVJA3D03MzFFs/edit?usp=sharing&ouid=115551664674650711033&rtpof=true&sd=true'target={'_blank'} id='guide'> Clique aqui para o guia completo.</a></li>
       </ul>
     </div>
   )}
