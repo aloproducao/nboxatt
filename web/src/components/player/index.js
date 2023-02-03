@@ -75,7 +75,7 @@ playsInline
 preload="auto"
 buffered={2}
 className='mx-auto h-full'
-poster={'https://i.imgur.com/qsZ8VbK.jpeg'}
+poster={'https://i.imgur.com/DE1fBIw.png'}
 id='playervideo'
 />
 <div class="button-container">
