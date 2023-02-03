@@ -5,6 +5,7 @@ function Player(props) {
 const videoRef = useRef(null);
 const location = useLocation();
 const [mute, setMute] = React.useState(false);
+const [paused, setPaused] = React.useState(false);
 
 function handleFullscreen() {
 if (videoRef.current.requestFullscreen) {
@@ -17,7 +18,10 @@ videoRef.current.mozRequestFullScreen();
 videoRef.current.msRequestFullscreen();
 }
 }
-
+function handlePause() {
+  setPaused(!paused);
+  videoRef.current.paused ? videoRef.current.play() : videoRef.current.pause();
+  }
 function handleMuted() {
 videoRef.current.muted = !videoRef.current.muted;
 setMute(!mute);
@@ -59,13 +63,14 @@ return function cleanup() {
 
 }, [videoRef, location.pathname])
 
+
 return (
 <>
 <video
 ref={videoRef}
 autoPlay
 muted={mute}
-controls
+
 playsInline
 preload="auto"
 buffered={2}
@@ -74,10 +79,18 @@ poster={'https://i.imgur.com/qsZ8VbK.jpeg'}
 id='playervideo'
 />
 <div class="button-container">
-<button onClick={handleFullscreen} title='Clique para tela cheia.' class="button fullscreen">😎Full</button>
+<button onClick={handlePause} id='playpause'  
+title='Clique para dar play ou pausar a mídia.' 
+class="button play-pause">{paused ? "▶️" : "⏸️"}</button>
 <button onClick={handleMuted} title='Clique para mutar ou desmutar o áudio.' class="button mute">{mute ? "🔇" : "🔈"}</button>
+<button onClick={handleFullscreen} title='Clique para tela cheia.' class="button fullscreen">😎Full</button>
+
+
+
+<button onClick={() => window.location.href='/'} title='Clique para tela cheia.' id='nbox' class="button fullscreen">nbox</button>
 </div>
 </>
+
 )
 }
 

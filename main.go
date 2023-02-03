@@ -81,6 +81,9 @@ func getTracksForStream(streamName string) (
 }
 
 //nolint:all
+
+
+
 func whipHandler(w http.ResponseWriter, r *http.Request) {
 	streamKey := r.Header.Get("Authorization")
 	if streamKey == "" {
@@ -96,6 +99,7 @@ func whipHandler(w http.ResponseWriter, r *http.Request) {
 
 	//nolint:all
 	peerConnection, err := api.NewPeerConnection(webrtc.Configuration{})
+	
 	if err != nil {
 		logHTTPError(w, err.Error(), http.StatusBadRequest)
 		return
@@ -163,7 +167,7 @@ func whipHandler(w http.ResponseWriter, r *http.Request) {
 	}
 
 	<-gatherComplete
-
+	w.WriteHeader(http.StatusCreated)
 	fmt.Fprint(w, peerConnection.LocalDescription().SDP)
 }
 
