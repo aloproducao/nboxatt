@@ -81,7 +81,7 @@ id='playervideo'
 <div class="button-container">
 <button onClick={handlePause} id='playpause'  
 title='Clique para dar play ou pausar a mídia.' 
-class="button play-pause">{paused ? "▶️" : "⏸️"}</button>
+class="button play-pause">{paused ? "▶️" : "⏸️"} play</button>
 <button onClick={handleMuted} title='Clique para mutar ou desmutar o áudio.' class="button mute">{mute ? "🔇" : "🔈"}</button>
 <button onClick={handleFullscreen} title='Clique para tela cheia.' class="button fullscreen">😎Full</button>
 
