@@ -87,7 +87,7 @@ class="button play-pause">{paused ? "▶️" : "⏸️"} play</button>
 
 
 
-<button onClick={() => window.location.href='/'} title='Clique para voltar a seleção de stream' id='nbox' class="button fullscreen">nbox</button>
+<button onClick={() => window.location.href='/'} title='Clique para voltar a seleção de stream' id='nbox' class="button fullscreen">voltar à nbox</button>
 </div>
 </>
 
