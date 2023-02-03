@@ -47,6 +47,8 @@ function Selection() {
         <li>2. Cole o servidor copiado no OBS Studio e crie uma stream key.</li>
         <li>3. Insira a stream key na caixa de texto abaixo e clique em "Assistir Stream".</li>
         <li><a href='https://docs.google.com/presentation/d/1K4l7LKRLChup_i9HMspuVJA3D03MzFFs/edit?usp=sharing&ouid=115551664674650711033&rtpof=true&sd=true'target={'_blank'} id='guide'> Clique aqui para o guia completo.</a></li>
+        <li><a href='https://docs.google.com/document/d/1CXqmd3Oa1sjVvYGTIenJq6vM1wEI0F83ekxle8dTMv4/edit?usp=sharing'target={'_blank'} id='terms'> Termos de uso.</a></li>
+     
       </ul>
     </div>
   )}

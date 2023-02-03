@@ -71,6 +71,10 @@ body {
   color: #f4f800;
   text-decoration: none; /* remove the default underline */
   }
+  #terms {
+    color: #4ff800;
+    text-decoration: none; /* remove the default underline */
+    }
   
   #guide:hover {
   color: #f1f1f1; 
