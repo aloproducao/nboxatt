@@ -6,7 +6,11 @@ const videoRef = useRef(null);
 const location = useLocation();
 const [mute, setMute] = React.useState(false);
 const [paused, setPaused] = React.useState(false);
+const [hideButtons, setHideButtons] = React.useState(false);
 
+function handleClick() {
+  setHideButtons(!hideButtons);
+}
 function handleFullscreen() {
 if (videoRef.current.requestFullscreen) {
 videoRef.current.requestFullscreen();
@@ -66,7 +70,7 @@ return function cleanup() {
 
 return (
 <>
-<video
+<video onClick={handleClick}
 ref={videoRef}
 autoPlay
 muted={mute}
@@ -78,7 +82,7 @@ className='mx-auto h-full'
 poster={'https://i.imgur.com/DE1fBIw.png'}
 id='playervideo'
 />
-<div class="button-container">
+<div className={`button-container ${hideButtons ? 'fadeOut' : ''}`}>
 <button onClick={handlePause} id='playpause'  
 title='Clique para dar play ou pausar a mídia.' 
 class="button play-pause">{paused ? "▶️" : "⏸️"} play</button>
