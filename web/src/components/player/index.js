@@ -73,7 +73,7 @@ muted={mute}
 
 playsInline
 preload="auto"
-buffered={0}
+buffered={1}
 className='mx-auto h-full'
 poster={'https://i.imgur.com/DE1fBIw.png'}
 id='playervideo'
