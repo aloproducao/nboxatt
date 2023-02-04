@@ -79,7 +79,7 @@ playsInline
 preload="auto"
 buffered={1}
 className='mx-auto h-full'
-poster={'https://i.imgur.com/DE1fBIw.png'}
+poster={'https://box.navve.studio/icon/ezgif-3-d8c1993b5d.gif'}
 id='playervideo'
 />
 <div className={`button-container ${hideButtons ? 'fadeOut' : ''}`}>
