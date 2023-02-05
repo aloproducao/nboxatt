@@ -3,11 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@analytics/google-tag-manager": "^0.5.3",
     "@fortawesome/free-solid-svg-icons": "^6.2.1",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "analytics": "^0.8.1",
     "bootstrap": "^5.2.3",
     "copy-to-clipboard": "^3.3.3",
     "crypto-browserify": "^3.12.0",
