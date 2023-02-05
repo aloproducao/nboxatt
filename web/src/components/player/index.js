@@ -7,6 +7,11 @@ const location = useLocation();
 const [mute, setMute] = React.useState(false);
 const [paused, setPaused] = React.useState(false);
 const [hideButtons, setHideButtons] = React.useState(false);
+ document.addEventListener("keydown", (event) => {
+    if (event.code === "F8") {
+      setHideButtons(!hideButtons);
+    }
+  });
 
 function handleClick() {
   setHideButtons(!hideButtons);

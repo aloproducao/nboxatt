@@ -19,6 +19,7 @@ const handleClick = () => {
   });
 
   const headerStyle = location.pathname === '/' ? { display: 'block' } : { display: 'none' };
+  
 
 return (
 <div>
@@ -41,6 +42,7 @@ return (
 
 
 
+
 <div className='flex content-center justify-between md:w-1/2 md:justify-end'>
 <ul className='list-reset flex justify-between flex-1 md:flex-none items-center'>
 <li className=''>
@@ -53,6 +55,7 @@ return (
 ⚠️Stream
 </button>
 
+
   <div class='dropdown'>
   <button class='dropdown-button font-bold text-1xl py-2 px-4 bg-red-500 text-white rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75'>
     Downloads
@@ -62,8 +65,9 @@ return (
     <a href='https://drive.google.com/file/d/1tBoT0RX2rTQn-XqyIv8cHNTvIGs50qyl/view?usp=share_link' class='dropdown-item font-bold text-1xl py-2 px-4 bg-white text-black rounded-lg shadow-md hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75'>Winx86</a>
     <a href='https://drive.google.com/file/d/1sr580LLM26teS41ppxmSpQZjo52gUY9z/view?usp=share_link' class='dropdown-item font-bold text-1xl py-2 px-4 bg-white text-black rounded-lg shadow-md hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75'>MacX64_86</a>
     <a href='https://drive.google.com/file/d/10YqPW3ZOg2EF5MlC-nnBKpjRihGyAeJ1/view?usp=share_link' class='dropdown-item font-bold text-1xl py-2 px-4 bg-white text-black rounded-lg shadow-md hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75'>Ubuntu</a>
-    
+      
     </div>
+    
 </div>
 </div>
 
