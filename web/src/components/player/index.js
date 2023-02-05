@@ -12,13 +12,22 @@ document.addEventListener("keydown", (event) => {
   if (event.code === "F8") {
     setHideButtons(!hideButtons);
   }
-  if (event.code === "F7") {
+  if (event.code === "KeyF") {
     if (document.fullscreenElement) {
       document.exitFullscreen();
     } else {
       videoRef.current.requestFullscreen();
     }
   }
+  if (event.code === "Space") {
+    event.preventDefault();
+    setPaused(!paused);
+    videoRef.current.paused ? videoRef.current.play() : videoRef.current.pause();
+  } 
+  if (event.code === 'KeyM') {
+    videoRef.current.muted = !videoRef.current.muted;
+    setMute(!mute);
+    }
   if (event.code === "F4") {
     navigator.clipboard.writeText(window.location.href)
       .then(() => {
