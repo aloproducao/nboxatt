@@ -22,7 +22,7 @@ document.addEventListener("keydown", (event) => {
   if (event.code === "F4") {
     navigator.clipboard.writeText(window.location.href)
       .then(() => {
-        alert("Endereço copiado");
+       
       })
       .catch(err => {
         console.error("Não foi possível copiar o endereço: ", err);
@@ -33,7 +33,7 @@ document.addEventListener("keydown", (event) => {
     var url = window.location.href;
     var iframe = '<iframe src="' + url + '" allow="autoplay; fullscreen" allowfullscreen frameborder="0" style="overflow:hidden;min-height:400px; height:100%;width:100%" height="100%" width="100%"></iframe>';
     navigator.clipboard.writeText(iframe);
-    alert('player embed copiado');
+    
   }
   
 });
