@@ -116,7 +116,7 @@ muted={mute}
 
 playsInline
 preload="auto"
-buffered={1}
+buffered={2}
 className='mx-auto h-full'
 poster={'https://gerador.navve.studio/gif.gif'}
 id='playervideo'
