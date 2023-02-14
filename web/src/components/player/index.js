@@ -109,41 +109,35 @@ return function cleanup() {
 
 
 return (
-<>
-<div className="logo-container">
-  <a href="https://box.navve.studio" target="_blank">
-    <img src="https://i.imgur.com/ZOMuPvE.png" alt="Logo" />
-  </a>
-</div>
-<video onClick={handleClick}
-ref={videoRef}
-autoPlay
-muted={mute}  
-
-playsInline
-preload="auto"
-buffered={2}
-className='mx-auto h-full'
-poster={'https://gerador.navve.studio/gif.gif'}
-id='playervideo'
-/>
-<style jsx>{`
-     
-    `}</style>
-<div className={`button-container ${hideButtons ? 'fadeOut' : ''}`}>
-<button onClick={handlePause} id='playpause'  
-title='Clique para dar play ou pausar a mídia.' 
-class="button play-pause">{paused ? "▶️" : "⏸️"}</button>
-<button onClick={handleMuted} title='Clique para mutar ou desmutar o áudio.' class="button mute">{mute ? "🔇" : "🔈"}</button>
-<button onClick={handleFullscreen} title='Clique para tela cheia.' class="button fullscreen">Full</button>
-
-
-</div>
-<div className={`hide-buttons-circle ${hideButtons ? 'hide-buttons-circle-active' : ''}`} onClick={() => setHideButtons(!hideButtons)}></div>
-</>
-
-)
-}
+  <>
+  
+  <div className="logo-container">
+    <a href="https://box.navve.studio" target="_blank">
+      <img src="https://i.imgur.com/ZOMuPvE.png" alt="Logo" />
+    </a>
+  </div>
+  <video onClick={handleClick}
+  ref={videoRef}
+  autoPlay
+  muted={mute}  
+  playsInline
+  preload="auto"
+  buffered={2}
+  className='mx-auto h-full'
+  poster={'https://gerador.navve.studio/gif.gif'}
+  id='playervideo'
+  />
+  
+  <div className="button-container" style={{ display: hideButtons ? 'none' : 'flex', justifyContent: 'center', position: 'fixed', bottom: 0, width: '100%' }}>
+    <button onClick={handlePause} id='playpause'  
+    title='Clique para dar play ou pausar a mídia.' 
+    class="button play-pause">{paused ? "▶️" : "⏸️"}</button>
+    <button onClick={handleMuted} title='Clique para mutar ou desmutar o áudio.' class="button mute">{mute ? "🔇" : "🔈"}</button>
+    <button onClick={handleFullscreen} title='Clique para tela cheia.' class="button fullscreen">Full</button>
+  </div>
+  <div className={`hide-buttons-circle ${hideButtons ? 'hide-buttons-circle-active' : ''}`} onClick={() => setHideButtons(!hideButtons)}></div>
+  </>
+  )}
 
 export default Player
 

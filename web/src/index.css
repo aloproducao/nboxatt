@@ -168,14 +168,8 @@ code {
 	content: "\f06a";
 }
 
-.button-container {
-	position: fixed;
-	bottom: 10% !important;
-	right: 5vh !important;
-	right: 0;
-	bottom: 0;
-	background-color: rgba(255, 0, 0, 0);
-	zoom: 0.8;
+.button-container{
+	margin-bottom: 3%;
 }
 .button {
 	font-size: 1em;
