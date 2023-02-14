@@ -280,6 +280,43 @@ code {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hide-buttons-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.hide-buttons-circle-active {
+  background-color: rgb(71, 71, 71);
+}
+
+.hide-buttons-circle:not(.hide-buttons-circle-active) {
+  background-color: rgb(34, 255, 0);
+}
+
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

@@ -48,8 +48,9 @@ document.addEventListener("keydown", (event) => {
 });
 
 function handleClick() {
-  setHideButtons(!hideButtons);
-}
+  setPaused(!paused);
+  videoRef.current.paused ? videoRef.current.play() : videoRef.current.pause();
+  }
 function handleFullscreen() {
 if (videoRef.current.requestFullscreen) {
 videoRef.current.requestFullscreen();
@@ -132,6 +133,7 @@ class="button play-pause">{paused ? "▶️" : "⏸️"}</button>
 
 <button onClick={() => window.location.href='/'} title='Clique para voltar a seleção de stream' id='nbox' class="button nbox">voltar à nbox</button>
 </div>
+<div className={`hide-buttons-circle ${hideButtons ? 'hide-buttons-circle-active' : ''}`} onClick={() => setHideButtons(!hideButtons)}></div>
 </>
 
 )
