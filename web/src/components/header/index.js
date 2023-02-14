@@ -27,7 +27,7 @@ return (
 <div className='container mx-auto flex flex-wrap justify-between items-center'>
   <div className='flex flex-1 text-white font-extrabold'>
     <a href="/" id='nbox'  style={{backgroundColor: '#ffffff00'}} className='font-light leading-tight text-2xl'>
-      Navve.Box
+    <img src="https://i.imgur.com/u5HE1M7.png" id='logo1' alt="Logo" />
     </a>
   </div>
   <div  id='sub1' className=' flex font-light text-green-500'>
