@@ -112,7 +112,7 @@ return (
   <>
   
   <div className="logo-container">
-    <a href="https://box.navve.studio" target="_blank">
+    <a href="/" target="">
       <img src="https://i.imgur.com/ZOMuPvE.png" alt="Logo" />
     </a>
   </div>
