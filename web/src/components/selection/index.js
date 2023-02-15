@@ -16,9 +16,15 @@ function Selection() {
     navigate(streamKey);
   };
   const onCopyClick = () => {
-    copy('https://box.navve.studio/api/whip');
-    alert('Servidor copiado! Cole no seu OBS Studio e crie uma streamkey.');
+    try {
+      navigator.clipboard.writeText('https://box.navve.studio/api/whip');
+      alert('Servidor copiado! Cole no seu OBS Studio e crie uma streamkey.');
+    } catch (err) {
+      console.error('Falha ao copiar para a área de transferência: ', err);
+    }
   };
+  
+  
   const toggleFaq = () => {
     setFaqOpen(!faqOpen);
   };
