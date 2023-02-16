@@ -33,7 +33,7 @@ function Selection() {
     setFaqOpen(!faqOpen);
   };
 
-  const [checked, setChecked] = useState(false);
+  const [checked, setChecked] = useState(true);
 
 
   return (
@@ -71,15 +71,13 @@ function Selection() {
           N.Box permite transmissão eficiente de vídeos em tempo real usando tecnologia WebRTC e codecs atuais.
         </p>
         <div className='my-4'>
+      
           <label className='block text-sm font-bold mb-2' htmlFor='streamKey'>
             Stream Key
-          </label>
-          <div className='my-4'>
-  <label className='block text-sm font-bold mb-2'>
-    <input type='checkbox' checked={checked} onChange={() => setChecked(!checked)} className='mr-2' />
-    Aceito os <a href='https://docs.google.com/document/d/1CXqmd3Oa1sjVvYGTIenJq6vM1wEI0F83ekxle8dTMv4/edit?usp=sharing' target='_blank' rel='noopener noreferrer'>Termos de Uso</a>
-  </label>
-</div>
+          </label>  
+
+
+        
                     <input 
             className='appearance-none border w-full py-2 px-3 bg-green-700 border-green-700 text-white rounded shadow-md placeholder-green-200' 
             id='streamKey' 
@@ -91,6 +89,10 @@ function Selection() {
             disabled={!checked} // Adicionado
           />
         </div>
+        <label className='block text-sm font-bold mb-2'>
+    <input type='checkbox' checked={checked} onChange={() => setChecked(!checked)} className='mr-2' />
+    Aceito os <a href='https://docs.google.com/document/d/1CXqmd3Oa1sjVvYGTIenJq6vM1wEI0F83ekxle8dTMv4/edit?usp=sharing' target='_blank' rel='noopener noreferrer'>Termos de Uso</a>
+  </label>
         <div className='flex justify-between'>
         <button
   id='btnassistir'
