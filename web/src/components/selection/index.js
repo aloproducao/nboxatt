@@ -91,7 +91,7 @@ function Selection() {
         </div>
         <label className='block text-sm font-bold mb-2'>
     <input type='checkbox' checked={checked} onChange={() => setChecked(!checked)} className='mr-2' />
-    Aceito os <a href='https://docs.google.com/document/d/1CXqmd3Oa1sjVvYGTIenJq6vM1wEI0F83ekxle8dTMv4/edit?usp=sharing' target='_blank' rel='noopener noreferrer'>Termos de Uso</a>
+    Aceito os <a href='https://docs.google.com/document/d/1CXqmd3Oa1sjVvYGTIenJq6vM1wEI0F83ekxle8dTMv4/edit?usp=sharing' target='_blank' rel='noopener noreferrer'>Termos de Uso e Privacidade</a>
   </label>
         <div className='flex justify-between'>
         <button
