@@ -23,7 +23,11 @@ function Selection() {
       console.error('Falha ao copiar para a área de transferência: ', err);
     }
   };
-  
+  const handleKeyPress = (e) => {
+    if (e.key === 'Enter') {
+      onWatchStreamClick();
+    }
+  }
   
   const toggleFaq = () => {
     setFaqOpen(!faqOpen);
@@ -74,6 +78,7 @@ function Selection() {
             placeholder='Chave de streaming'
             onChange={onStreamKeyChange} 
             autoFocus 
+            onKeyPress={handleKeyPress}
           />
         </div>
         <div className='flex justify-between'>
