@@ -68,7 +68,7 @@ function Selection() {
 
       <form className='rounded-md bg-green-800 shadow-md p-8'>
         <p className='mb-4'>
-          N.Box permite transmissão eficiente de vídeos em tempo real usando tecnologia WebRTC e codecs atuais.
+          N.box, Streaming sem limites - onde quer que você esteja.
         </p>
         <div className='my-4'>
       
